@@ -1,0 +1,77 @@
+* {
+  margin: 6px 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+}
+
+.resume {
+  font-size: 17px;
+  margin-top: 20px;
+  padding: 50px 50px;
+}
+.resume::after {
+  content: "";
+  position: absolute;
+  width: 680px;
+  height: 2px;
+  top: 110px;
+  background-color: currentColor;
+}
+
+h1 span {
+  font-weight: 100;
+}
+
+.highlights {
+  position: relative;
+  display: inline;
+  left: 130px;
+}
+
+h4 {
+  display: block;
+}
+.highlights ul {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.experience {
+  position: relative;
+  display: block;
+  left: 130px;
+  width: 580px;
+}
+
+.timeline {
+  position: relative;
+  display: block;
+  left: 130px;
+  width: 580px;
+}
+
+.education {
+  position: relative;
+  display: block;
+  left: 130px;
+  width: 580px;
+}
+
+.aditionalinfo {
+  position: relative;
+  display: block;
+  left: 130px;
+  width: 580px;
+}
